@@ -9,7 +9,7 @@ import { ShopSection } from '@/dom/ShopSection'
 
 export default function Home() {
   return (
-    <main className='flex-col w-100 h-100vh' style={{background: "#F6F6F6"}}>
+    <main className='flex-col w-100 h-100vh autoverflow-y flex-justify-start py-100' style={{background: "#F6F6F6"}}>
       <LogoButton />
       <ContactButton />
       <ShopSection />
