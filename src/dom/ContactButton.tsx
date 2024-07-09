@@ -79,29 +79,7 @@ export const HeroSection = () => {
       </div> */}
   
   
-  <div className='w-100 flex-wrap gap-2 pt-200'
-        style={{background: "#FFF8E8"}}
-      >
-        <img src='/img/article (1).png' className='w-100 w-max-400px'  />
-        <img src='/img/banner1.png' className='w-100 w-max-400px'  />
-        <img src='/img/somering.png' className='w-100 w-max-300px'  />
-  
-        
-        </div>
-        
-      <div className='w-100 flex-wrap gap-8 pt-200'
-        style={{background: "linear-gradient(180deg, #FFF8E8,  #FCEAAF, #F4F5EF )"}}
-      >
-        {/* <img src='/img/articleplata.png' className='w-100 w-max-400px'  /> */}
-        <img style={{}} src='/img/product (1).png' className='w-100 w-max-300px bord-r-5'  />
-        <img style={{}} src='/img/product (3).png' className='w-100 w-max-400px bord-r-5'  />
-        <img style={{}} src='/img/product (2).png' className='w-100 w-max-200px bord-r-5'  />
-  
-        
-        </div>
-  
-        
-      <div className='w-100 flex-col'
+  <div className='w-100 flex-col'
         // style={{background: "linear-gradient(180deg, #F4F5EF,  #ff9900 )"}}
         style={{background: "#F4F5EF"}}
         >
@@ -118,7 +96,41 @@ export const HeroSection = () => {
         
         </div>
         </div>
-        <div style={{background: "#F4F5EF"}} className='w-100 block'>
+        
+      <div className='w-100 flex-wrap gap-8 pt-200'
+        style={{background: "linear-gradient(0deg, #FFF8E8,  #FCEAAF, #F4F5EF )"}}
+      >
+        {/* <img src='/img/articleplata.png' className='w-100 w-max-400px'  /> */}
+        <img style={{}} src='/img/product (1).png' className='w-100 w-max-300px bord-r-5'  />
+        <img style={{}} src='/img/product (3).png' className='w-100 w-max-400px bord-r-5'  />
+        <img style={{}} src='/img/product (2).png' className='w-100 w-max-200px bord-r-5'  />
+  
+        
+        </div>
+  
+
+  
+        <div className='w-100 flex-wrap gap-2 pt-200'
+        style={{background: "#FFF8E8"}}
+      >
+        <img src='/img/article (1).png' className='w-100 w-max-400px'  />
+        <img src='/img/banner1.png' className='w-100 w-max-400px'  />
+        <img src='/img/somering.png' className='w-100 w-max-300px'  />
+  
+        
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+        <div style={{background: "#FFF8E8"}} className='w-100 block'>
           <div className='py-200'></div>
         </div>
   
