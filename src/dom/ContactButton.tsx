@@ -74,7 +74,7 @@ export const HeroSection = () => {
           
         <div className='flex-col Q_xs'>
               <img src='/img/phones.png' className='w-100 w-max-700px '  />
-              <div className='w-100 flex translate-y--50'>
+              <div className='w-100 flex '>
                 <div className='flex-1'></div>
                 <a className=' w-min-250px tx-center nodeco tx-black  box-shadow-2-b mainActionButton' href='/shop'
                   style={{
@@ -98,7 +98,7 @@ export const HeroSection = () => {
             
             <div className='flex-col Q_sm_x'>
               <img src='/img/phones.png' className='w-100 w-max-700px '  />
-              <div className='w-100 flex translate-y--50'>
+              <div className='w-100 flex '>
                 <div className='flex-1'></div>
                 <a className=' w-min-250px tx-center nodeco  box-shadow-2-b mainActionButton tx-black nodeco' href='/shop'
                   style={{
