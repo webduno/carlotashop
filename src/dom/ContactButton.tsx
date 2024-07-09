@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import { FaTwitter, FaTelegram, FaYoutube, FaTiktok, FaExchangeAlt, FaChartLine, FaFilePdf, FaFile, FaGamepad, FaWhatsapp, FaInstagram, FaGlasses, FaSun, FaMoon } from 'react-icons/fa'
+import { FaTwitter, FaTelegram, FaYoutube, FaTiktok, FaExchangeAlt, FaChartLine, FaFilePdf, FaFile, FaGamepad, FaWhatsapp, FaInstagram, FaGlasses, FaSun, FaMoon, FaUser, FaHome } from 'react-icons/fa'
 import { GiGecko } from 'react-icons/gi'
-import { FaEarDeaf, FaEarListen, FaHandBackFist } from 'react-icons/fa6'
+import { FaCartShopping, FaEarDeaf, FaEarListen, FaHandBackFist } from 'react-icons/fa6'
 import { TbShoe } from 'react-icons/tb'
 
 export const ContactButton = () => {
@@ -12,6 +12,45 @@ export const ContactButton = () => {
         <FaWhatsapp className='pos-abs tx-lg' style={{color: "white"}} />
       </div>
     </a>
+  </>)
+}
+
+export const AppButtonsGroup = () => {
+  return (<>
+    <div className=' w-100 bg-white flex tx-altfont-1'>
+      <a href='/' className='nodeco opaci-chov--75 tx-black flex-1 flex-col' style={{boxShadow: "inset 0 0 2px #dddddd"}}>
+        <div className='py-3 flex-col'>
+          <div className='opaci-50 '>
+          <FaHome />
+          </div>
+          <div>Home</div>
+          </div>
+      </a>
+      <a href='/shop' className='nodeco opaci-chov--75 tx-black flex-1 flex-col' style={{boxShadow: "inset 0 0 2px #dddddd"}}>
+        <div className='py-3 flex-col'>
+          <div className='opaci-50 '>
+          <FaUser />
+          </div>
+          <div>User</div>
+          </div>
+      </a>
+      <a href='/shop#checkout' className='nodeco opaci-chov--75 tx-black flex-1 flex-col' style={{boxShadow: "inset 0 0 2px #dddddd"}}>
+        <div className='py-3 flex-col'>
+          <div className='opaci-50 '>
+          <FaCartShopping />
+          </div>
+          <div>Cart</div>
+          </div>
+      </a>
+      <div className='flex-1 flex-col'>
+
+      <a className=' pa-4 opaci-chov--50 z-100 ' target='_blank' href='https://api.whatsapp.com/message/QVPL7P6JGWOVI1' >
+      <div className='bord-r-100p flex-col h-50px w-50px' style={{background: "linear-gradient(45deg, #0EBA2A, #62F87D)"}}>
+        <FaWhatsapp className='pos-abs tx-lg' style={{color: "white"}} />
+      </div>
+    </a>
+      </div>
+    </div>
   </>)
 }
 
