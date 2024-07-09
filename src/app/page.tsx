@@ -4,11 +4,12 @@ import { FaTwitter, FaTelegram, FaYoutube, FaTiktok, FaExchangeAlt, FaChartLine,
 import { GiGecko } from 'react-icons/gi'
 import { FaEarDeaf, FaEarListen, FaHandBackFist } from 'react-icons/fa6'
 import { TbShoe } from 'react-icons/tb'
-import { ContactButton, FooterSection, HeroSection, MainSection } from '@/dom/ContactButton'
+import { ContactButton, FooterSection, HeroSection, LogoButton, MainSection } from '@/dom/ContactButton'
 
 export default function Home() {
   return (
     <main className='flex-col w-100 '>
+      <LogoButton />
       <ContactButton />
       <HeroSection />
       <MainSection />

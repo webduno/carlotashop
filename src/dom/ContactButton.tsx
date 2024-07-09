@@ -6,20 +6,48 @@ import { FaEarDeaf, FaEarListen, FaHandBackFist } from 'react-icons/fa6'
 import { TbShoe } from 'react-icons/tb'
 
 export const ContactButton = () => {
-    return (<>
-      <div className='pos-fix right-0 bottom-0 pa-4 opaci-chov--50' >
-        <div className='bord-r-100p flex-col h-50px w-50px' style={{background: "linear-gradient(45deg, #0EBA2A, #62F87D)"}}>
-          <FaWhatsapp className='pos-abs tx-lg' style={{color: "white"}} />
-        </div>
+  return (<>
+    <a className='pos-fix right-0 bottom-0 pa-4 opaci-chov--50 z-100 hover-4' target='_blank' href='https://api.whatsapp.com/message/QVPL7P6JGWOVI1' >
+      <div className='bord-r-100p flex-col h-50px w-50px' style={{background: "linear-gradient(45deg, #0EBA2A, #62F87D)"}}>
+        <FaWhatsapp className='pos-abs tx-lg' style={{color: "white"}} />
       </div>
-    </>)
-  }
+    </a>
+  </>)
+}
+
+
+export const LogoButton = () => {
+  return (<>
+    <a className='pos-fix left-0 top-0 pa-4 opaci-chov--50 z-100 ' href='/'>
+      <div className='bord-r-100p flex-col h-50px w-50px' style={{background: "linear-gradient(45deg, #0EBA2A, #62F87D)"}}>
+        {/* <FaWhatsapp className='pos-abs tx-lg' style={{color: "white"}} /> */}
+        <img src='./favicon/android-icon-72x72.png' width={64} className='pos-abs' />
+      </div>
+    </a>
+  </>)
+}
 
   
 export const HeroSection = () => {
     return (<>
       <div className='w-100  w-max-1080px'>
         <div className='flex-wrap flex-align-start'>
+          
+        <div className='flex-col Q_xs'>
+              <img src='/img/phones.png' className='w-100 w-max-700px '  />
+              <div className='w-100 flex translate-y--50'>
+                <div className='flex-1'></div>
+                <div className=' w-min-250px tx-center   box-shadow-2-b mainActionButton'
+                  style={{
+                    // borderRadius: "25px 10px 10px 25px",
+                    // boxShadow: "-2px 2px 0 #FFD23F"
+                  }}
+                >
+                  <div className='tx-xl py-2 tx-altfont-1 '>Enter</div>
+                </div>
+              </div>
+            </div>
+
           <div className='flex-1 flex-col flex-justify-start'>
             <div className='mt-100 Q_sm_x'>
             </div>
@@ -46,16 +74,6 @@ export const HeroSection = () => {
           </div>
           
         </div>
-        <div className='flex-col Q_xs w-100 pt-8'>
-                <div className=' w-min-250px tx-center   box-shadow-5-b mainActionButton'
-                  style={{
-                    // borderRadius: "25px 10px 10px 25px",
-                    // boxShadow: "-2px 2px 0 #FFD23F"
-                  }}
-                >
-                  <div className='tx-xl py-2 tx-altfont-1 '>Enter</div>
-                </div>
-              </div>
       </div>
     </>)
   }
@@ -154,7 +172,7 @@ export const HeroSection = () => {
         <img src='/img/yellowlogo.png' className='w-100 bord-r-25 box-shadow-2-b w-max-100px Q_xs'  />
       </a>
         <a className='flex-col nodeco tx-white opaci-chov--75' 
-        href='https://www.instagram.com/carlotashop_' target='_blank'>
+        href='https://api.whatsapp.com/message/QVPL7P6JGWOVI1' target='_blank'>
           <div className='pb-4  tx-altfont-1 opaci-75 tx-center tx-bold-8'>
           <FaWhatsapp className='tx-lx' />
           <div className='Q_sm_x tx-lx'><br />  Whatsapp <br /> Catalogue</div>
