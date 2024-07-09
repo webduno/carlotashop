@@ -76,7 +76,7 @@ export const HeroSection = () => {
               <img src='/img/phones.png' className='w-100 w-max-700px '  />
               <div className='w-100 flex translate-y--50'>
                 <div className='flex-1'></div>
-                <a className=' w-min-250px tx-center   box-shadow-2-b mainActionButton' href='/shop'
+                <a className=' w-min-250px tx-center nodeco  box-shadow-2-b mainActionButton' href='/shop'
                   style={{
                     // borderRadius: "25px 10px 10px 25px",
                     // boxShadow: "-2px 2px 0 #FFD23F"
@@ -100,7 +100,7 @@ export const HeroSection = () => {
               <img src='/img/phones.png' className='w-100 w-max-700px '  />
               <div className='w-100 flex translate-y--50'>
                 <div className='flex-1'></div>
-                <a className=' w-min-250px tx-center   box-shadow-2-b mainActionButton tx-black nodeco' href='/shop'
+                <a className=' w-min-250px tx-center nodeco  box-shadow-2-b mainActionButton tx-black nodeco' href='/shop'
                   style={{
                     // borderRadius: "25px 10px 10px 25px",
                     // boxShadow: "-2px 2px 0 #FFD23F"
