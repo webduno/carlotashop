@@ -72,7 +72,7 @@ export const HeroSection = () => {
       <div className='w-100  w-max-1080px'>
         <div className='flex-wrap flex-align-start'>
           
-        <div className='flex-col Q_xs'>
+        <div className='flex-col Q_xs mb-8'>
               <img src='/img/phones.png' className='w-100 w-max-700px '  />
               <div className='w-100 flex '>
                 <div className='flex-1'></div>
